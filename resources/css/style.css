@@ -87,12 +87,13 @@ header .mobile {
 
 @media only screen and (max-width: 760px) {
   header .desktop {
-    display: none;
+    display: flex;
+    width: 100%;
   }
 
   header .mobile {
-    display: block;
-    width: 100%;
+    display: none;
+
   }
 
   header .content {
